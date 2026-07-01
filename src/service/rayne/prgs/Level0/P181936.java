@@ -1,0 +1,7 @@
+package service.rayne.prgs.Level0;
+
+public class P181936 {
+  public int solution(int number, int n, int m) {
+    return (number % n == 0 && number % m == 0) ? 1 : 0;
+  }
+}
